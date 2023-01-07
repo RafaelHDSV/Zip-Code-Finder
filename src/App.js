@@ -1,13 +1,17 @@
+import { useState } from 'react'
 import { FiSearch } from 'react-icons/fi';
 import './App.css'
 
 function App() {
+
+  const [input, setInput] = useState('')
+
   return (
     <div className="container">
       <h1 className='title'>Buscador CEP</h1>
 
       <div className="container_input">
-        <input type="text" placeholder='Digite seu CEP...' />
+        <input type="text" value={input} onChange={(e) => setInput(e.target.value)} placeholder='Digite seu CEP...' />
 
         <button className='btn_search'><FiSearch size={25} color='#ffffff'></FiSearch></button>
       </div>
