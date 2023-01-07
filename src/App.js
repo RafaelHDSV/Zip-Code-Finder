@@ -6,6 +6,7 @@ import api from './services/api'
 function App() {
 
   const [input, setInput] = useState('')
+  const [CEP, setCEP] = useState({})
 
   async function handleSearch() {
     if (input === '') {
@@ -15,8 +16,11 @@ function App() {
 
     try {
       const response = await api.get(`${input}/json`)
+      setCEP(response.data)
+      setInput('')
     } catch {
       alert('Erro!')
+      setInput('')
     }
   }
 
@@ -31,12 +35,12 @@ function App() {
       </div>
 
       <main className="main">
-        <h2>CEP: 13240000</h2>
+        <h2>CEP: {CEP.cep}</h2>
 
-        <span>Rua Teste algum</span>
-        <span>Complemento: algum complemento</span>
-        <span>Vila Rosa</span>
-        <span>Campo Grande - MS</span>
+        <span>{CEP.logradouro}</span>
+        <span>Complemento: {CEP.complemento}</span>
+        <span>{CEP.bairro}</span>
+        <span>{CEP.localidade} - {CEP.uf}</span>
       </main>
     </div>
   );
