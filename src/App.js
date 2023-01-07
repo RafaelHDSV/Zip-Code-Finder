@@ -34,14 +34,16 @@ function App() {
         <button className='btn_search' onClick={handleSearch}><FiSearch size={25} color='#ffffff'></FiSearch></button>
       </div>
 
-      <main className="main">
-        <h2>CEP: {CEP.cep}</h2>
+      {Object.keys(CEP).length > 0 && (
+        <main className="main">
+          <h2>CEP: {CEP.cep}</h2>
 
-        <span>{CEP.logradouro}</span>
-        <span>Complemento: {CEP.complemento}</span>
-        <span>{CEP.bairro}</span>
-        <span>{CEP.localidade} - {CEP.uf}</span>
-      </main>
+          <span>{CEP.logradouro}</span>
+          <span>Complemento: {CEP.complemento}</span>
+          <span>{CEP.bairro}</span>
+          <span>{CEP.localidade} - {CEP.uf}</span>
+        </main>
+      )}
     </div>
   );
 }
