@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/RafaelHDSV/Zip-Code-Finder?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/RafaelHDSV/Zip-Code-Finder?style=for-the-badge)
 
-<img src="images/desktop.png" alt="desktop.png">
+<img src="public/desktop.png" alt="desktop.png">
 
 > This project was made to use api knowledge, in the following case we used an api to fetch zip code and we did it in react js
 
@@ -36,11 +36,11 @@ Users should be able to:
 
   - Desktop
   
-    ![](images/desktop.png)
+    ![](public/desktop.png)
     
   - Mobile
     
-    <img src="images/mobile.png" alt="mobile.png" width="300px">
+    <img src="public/mobile.png" alt="mobile.png" width="300px">
 
 ## My process
 
