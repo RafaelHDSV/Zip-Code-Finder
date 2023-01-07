@@ -6,6 +6,13 @@ function App() {
 
   const [input, setInput] = useState('')
 
+  function handleSearch() {
+    if (input === '') {
+      alert('Preencha algum CEP!')
+      return
+    }
+  }
+
   return (
     <div className="container">
       <h1 className='title'>Buscador CEP</h1>
@@ -13,7 +20,7 @@ function App() {
       <div className="container_input">
         <input type="text" value={input} onChange={(e) => setInput(e.target.value)} placeholder='Digite seu CEP...' />
 
-        <button className='btn_search'><FiSearch size={25} color='#ffffff'></FiSearch></button>
+        <button className='btn_search' onClick={handleSearch}><FiSearch size={25} color='#ffffff'></FiSearch></button>
       </div>
 
       <main className="main">
