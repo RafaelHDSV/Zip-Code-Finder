@@ -6,7 +6,7 @@ function App() {
     <div className="container">
       <h1 className='title'>Buscador CEP</h1>
 
-      <div className="containerInput">
+      <div className="container_input">
         <input type="text" placeholder='Digite seu CEP...' />
 
         <button className='btn_search'><FiSearch size={25} color='#ffffff'></FiSearch></button>
