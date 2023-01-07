@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#121212, #212b46);
+}
+
+.title {
+    font-size: 85px;
+    color: #ffffff;
+}
