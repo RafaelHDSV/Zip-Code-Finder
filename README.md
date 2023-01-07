@@ -1,8 +1,8 @@
 # Zip Code Finder
 
-![GitHub repo size](https://img.shields.io/github/repo-size/RafaelHDSV/a?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/RafaelHDSV/a?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/RafaelHDSV/a?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/RafaelHDSV/Zip-Code-Finder?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/RafaelHDSV/Zip-Code-Finder?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/RafaelHDSV/Zip-Code-Finder?style=for-the-badge)
 
 <img src="public/desktop.png" alt="desktop.png">
 
