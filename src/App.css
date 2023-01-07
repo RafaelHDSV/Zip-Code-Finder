@@ -78,3 +78,18 @@
     margin-bottom: 16px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 620px) {
+    .title {
+        font-size: 60px;
+    }
+
+    .main h2 {
+        font-size: 28px;
+    }
+
+    .main {
+        min-height: 250px;
+        width: 80%;
+    }
+}
