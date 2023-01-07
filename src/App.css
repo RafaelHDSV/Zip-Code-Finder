@@ -44,3 +44,37 @@
 .container_input input::placeholder {
     color: #f1f1f1;
 }
+
+.btn_search {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn_search:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.main h2 {
+    margin: 16px 0;
+    font-size: 39px;
+}
+
+.main span {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
