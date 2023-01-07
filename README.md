@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: URL SITE HERE
+- Live Site URL: https://zip-code-finder.netlify.app
 
 ### Screenshot
 
