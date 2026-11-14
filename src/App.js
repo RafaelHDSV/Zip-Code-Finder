@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { FiSearch } from 'react-icons/fi';
+import { VisitCountFooter } from '@vieira/analytics/react'
 import './App.css'
 import api from './services/api'
 
@@ -44,6 +45,10 @@ function App() {
           <span>{CEP.localidade} - {CEP.uf}</span>
         </main>
       )}
+
+      <footer className="app-footer">
+        <VisitCountFooter projectKey="buscador-cep" />
+      </footer>
     </div>
   );
 }
